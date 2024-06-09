@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width:90%;
+            height: 500px;
+            background: grey;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background:red;
+            
+        }
+    </style>
+</head>
+<body>
+   <blockquote>
+    fn: <input type="text" id="fn"> <br> <br> 
+    ln: <input type="text" id="ln"> <br> <br> 
+    <input type="text" id="result" readonly disabled>
+    <button onclick="addNumber()">add</button>
+   </blockquote>
+
+  <script src="./custom.js"  ></script>
+    
+</body>
+</html>
